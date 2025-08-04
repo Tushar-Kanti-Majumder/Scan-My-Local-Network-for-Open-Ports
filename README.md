@@ -1,1 +1,2 @@
 # Scan-My-Local-Network-for-Open-Ports
+I used nmap tool which is inbuilt in kali linux to scan for a range of ip address and saved the output as File.txt  . Then I wrote Note down all the IP addresses and open ports found by scanning with the help of nmap and saved the output as Note down IP addresses and open ports found.txt and last but not the least also research some common services running on those ports and also attached this file as Research common services running on those ports.txt
