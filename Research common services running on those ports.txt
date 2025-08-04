@@ -1,0 +1,18 @@
+192.168.0.175  // Host machine
+
+PORT     STATE   SERVICE
+135/tcp  open     msrpc   // MSRPC, or Microsoft Remote Procedure Call,is a protocol that allows programs 
+			     on different computers to communicate with each other as if they were running
+			     on the same machine. 
+
+902/tcp  open    iss-realsecure      // iss or internet security system and realsecure is the first intrusion-detection 
+					product to integrate network-based and host-based-intrusion detection into one system. 
+
+
+
+912/tcp  open    apex-mesh	      //indicates thatTCP port 912 is currently open and actively listening for
+					connections associated with the "apex-mesh" service.APEX (Application Exchange Core) is an XML-based protocol,
+					initially designed for instant messaging based on the Blocks Extensible Exchange Protocol (BEEP). 
+					port 912 specifically facilitates communication between APEX relays within a network. 
+
+

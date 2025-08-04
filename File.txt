@@ -1,0 +1,37 @@
+# Nmap 7.95 scan initiated Mon Aug  4 08:59:19 2025 as: /usr/lib/nmap/nmap --privileged -oN File.txt -sS 192.168.0.0/24
+Nmap scan report for 192.168.0.1
+Host is up (0.0013s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+1900/tcp open  upnp
+MAC Address: 8C:90:2D:C8:40:B0 (Unknown)
+
+Nmap scan report for 192.168.0.110
+Host is up (0.0099s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+8008/tcp open  http
+8009/tcp open  ajp13
+8443/tcp open  https-alt
+9000/tcp open  cslistener
+MAC Address: 84:30:95:A8:95:2E (Hon Hai Precision IND.CO.)
+
+Nmap scan report for 192.168.0.175
+Host is up (0.00020s latency).
+Not shown: 829 filtered tcp ports (no-response), 167 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+1024/tcp open  kdm
+MAC Address: 1C:1B:0D:C2:F0:49 (Giga-byte Technology)
+
+Nmap scan report for 192.168.0.101
+Host is up (0.0000040s latency).
+All 1000 scanned ports on 192.168.0.101 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon Aug  4 08:59:25 2025 -- 256 IP addresses (4 hosts up) scanned in 5.78 seconds

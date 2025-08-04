@@ -1,0 +1,21 @@
+Note down IP addresses and open ports found.
+
+-->
+	Nmap scan report for 192.168.0.1  //router ip address
+	PORT     STATE SERVICE
+	53/tcp   open  domain
+	80/tcp   open  http
+	443/tcp  open  https
+	1900/tcp open  upnp
+
+
+	Nmap scan report for 192.168.0.175  // Host machine
+	PORT     STATE SERVICE
+	135/tcp  open  msrpc
+	902/tcp  open  iss-realsecure
+	912/tcp  open  apex-mesh
+	1024/tcp open  kdm
+
+
+	Nmap scan report for 192.168.0.101   //kali linux 
+	All 1000 scanned ports on 192.168.0.101 are in ignored states.
